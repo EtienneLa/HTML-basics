@@ -1,7 +1,8 @@
 td{
-	border : 3px solid #999;
+	border : 3px dashed;
 	padding: 0.1em 1em;
-	color: red;
+	color: #000;
+	border-color: #009;
 }		
 body {
 	fond-size: 16px;
@@ -29,5 +30,9 @@ h2 {
 	padding: 20px;
 }
 img {
-	margin: 32px;;
+	margin: 32px;
+	padding: 3px;
+	border: 3px solid #009;
+	border-left-width: 6px;
+	border-right-width: 6px;
 }
