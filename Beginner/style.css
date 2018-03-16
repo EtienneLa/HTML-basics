@@ -1,13 +1,16 @@
-td		{	
-			border: 1px solid #999;
-			padding: 0.1em 1em;
-			color: red;
-		}
-body	{
-			font-size: 16px;
-			color: black;
-		}
-a		{
-			color: blue;
-		}
-		
+td{
+	border : 1pc solid #999;
+	padding: 0.1em 1em;
+	color: red;
+}		
+body {
+	fond-size: 16px;
+	color: black;
+}
+a {
+	color: blue;
+}
+h1 {
+	color: #ffc;
+	background-color: #009;
+}
