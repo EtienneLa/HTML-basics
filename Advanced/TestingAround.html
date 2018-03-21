@@ -4,6 +4,12 @@
 
 <head>
 	<title>Another great Website</title>
+	<style>
+		td {
+			border: 1px solid #999;
+			padding: 0.1em 1em;
+		}
+	</style>
 	<meta charset="utf-8">
 	<meta name="description" content="learning some advanced concepts of html">
 	<meta http-equiv="refresh" content="10">
@@ -12,6 +18,54 @@
 <body>
 	<p>This line of code was written on <time datetime="2018-03-20 22:12">Tuesday 20th March 2018</time></p>
 	<p>You can mark <mark>things</mark> with help of the "mark-tag".</p>
+	<table>
+		<caption>Testcaption</caption>
+		<colgroup>
+			<col>
+			<col span="2" class="alternative">
+		</colgroup>
+		<tr>
+			<td>This</td>
+			<td>That</td>
+			<td>Another</td>
+		</tr>
+		<tr>
+			<td>First</td>
+			<td>Second</td>
+			<td>Third</td>
+		</tr>
+	</table>
+	<table>
+		<caption>Second Table</caption>
+		<thead>
+			<tr>
+				<td>Apple 1</td>
+				<td>Apple 2</td>
+				<td>Apple 3</td>
+				<td>Apple 4</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan="2">Banana 1</td>
+				<td>Banana 2</td>
+				<td rowspan="2">Banana 3</td>
+			</tr>
+			<tr>
+				<td>Bacon 1</td>
+				<td>Bacon 2</td>
+				<td>Bacon 3</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>Orange 1</td>
+				<td>Orange 2</td>
+				<td>Orange 3</td>
+				<td>Orange 4</td>
+			</tr>
+		</tfoot>
+	</table>
 </body>
 
 </html>
