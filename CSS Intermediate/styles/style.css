@@ -54,3 +54,15 @@ input:focus {
 #p2content li:last-child {
 	font-size: 25px;
 }
+img {
+	border: 2px black solid;
+	padding: 1em 10em;
+}
+.top p {
+    font: 14px, arial, "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
+}
