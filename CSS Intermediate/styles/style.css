@@ -2,39 +2,55 @@ body {
 	background-color: #999;
 	font-family: arial;
 }
-
 .top {
 	background-color: #555;
 	padding: 20px;
 	font-family: arial;
 	color: #999;
 }
-
 #homecontent {
 	background-color: #800;
 	padding: 20px;
 }
-
 #homecontent ul {
 	color: #999;
 }
-
 #p2content {
 	background-color: green;
 	padding: 20px;
 }
-
 #p3content {
 	background-color: #155;
 	padding: 20px;
 }
-
 h1, h2 {
 	font-style: italic;
 	color: #333;
 }
-
 nav {
 	color: #333;
 	padding: 50px;
+}
+a:link {
+	color: blue;
+}
+a:visited {
+	color: purple;
+}
+a:active {
+	color: red;
+}
+a:hover {
+	text-decoration: none;
+	color: blue;
+	background-color: yellow;
+}
+input:focus {
+	background: #999;
+}
+#homecontent li:first-child {
+	font-size: 25px;
+}
+#p2content li:last-child {
+	font-size: 25px;
 }
