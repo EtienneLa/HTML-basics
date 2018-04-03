@@ -8,6 +8,12 @@ body {
 	font-family: arial;
 	color: #999;
 }
+.top::first-letter {
+	font-size: 50px;
+}
+p::first-line {
+	font-size: 20px;
+}
 #homecontent {
 	background-color: #803;
 	padding: 20px;
@@ -23,9 +29,9 @@ body {
 	background: #155 url(https://www.htmldog.com/images/bg.gif) repeat;
 	padding: 20px;
 }
-#p3content li {
+#p3content ul li {
 	font-size: 40px;
-	display: inline;
+	display: list-item;
 }
 h1, h2 {
 	font-style: italic;
@@ -72,4 +78,10 @@ img {
     border-width: 1px 5px 5px 1px;
     border-color: red green blue yellow;
     margin: 10px 50px;
+}
+blockquote::before {
+	content: open.quote;
+}
+blockquote::after {
+	content: close-quote;
 }
