@@ -1,5 +1,5 @@
 body {
-	background-color: #999;
+	background: #999;
 	font-family: arial;
 }
 .top {
@@ -9,7 +9,7 @@ body {
 	color: #999;
 }
 #homecontent {
-	background-color: #800;
+	background-color: #803;
 	padding: 20px;
 }
 #homecontent ul {
@@ -20,7 +20,7 @@ body {
 	padding: 20px;
 }
 #p3content {
-	background-color: #155;
+	background: #155 url(https://www.htmldog.com/images/bg.gif) repeat;
 	padding: 20px;
 }
 h1, h2 {
