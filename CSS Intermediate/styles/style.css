@@ -7,6 +7,7 @@ body {
 	padding: 20px;
 	font-family: arial;
 	color: #999;
+	position: relative;
 }
 .top::first-letter {
 	font-size: 50px;
@@ -17,6 +18,7 @@ p::first-line {
 #homecontent {
 	background-color: #803;
 	padding: 20px;
+	position: relative;
 }
 #homecontent ul {
 	color: #999;
@@ -84,4 +86,14 @@ blockquote::before {
 }
 blockquote::after {
 	content: close-quote;
+}
+#navigation {
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 200px;
+}
+
+#content {
+    margin: 0 200px;
 }
