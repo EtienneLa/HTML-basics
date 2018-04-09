@@ -104,4 +104,8 @@ header a:hover{
 }
 footer{
   padding: 20px;
+  margin-top: 20px;
+  color: #c1c1c1;
+  background-color: #b74022;
+  text-align: center;
 }
