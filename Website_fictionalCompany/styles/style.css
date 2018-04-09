@@ -55,7 +55,6 @@ header .highlight, header .current a{
 }
 header a:hover{
   color: #590000;
-  font-weight: bold;
 }
 #showcase{
   min-height:300px;
@@ -87,4 +86,22 @@ header a:hover{
   padding: 4px;
   height: 24px;
   width: 250px;
+}
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes .box p{
+  font-size: 13px;
+}
+#boxes .box img{
+  width: 150px;
+}
+footer{
+  padding: 20px;
 }
