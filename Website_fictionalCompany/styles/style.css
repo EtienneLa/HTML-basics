@@ -46,10 +46,10 @@ header li{
   display: inline;
   padding: 0 20px 0 20px;
 }
-header#branding{
+header #branding{
   float: left;
 }
-header#branding h1{
+header #branding h1{
   margin: 0;
 }
 header nav{
@@ -109,14 +109,25 @@ header a:hover{
 #boxes .box img{
   width: 150px;
 }
-aside#sidebar{
+#sidebar{
   float: right;
   width: 30%;
   margin-top:10px;
 }
-article#main-col{
+#sidebar .quote input, #sidebar .quote textarea{
+  width:90%;
+  padding: 5px;
+}
+#main-col{
   float: left;
   width: 65%;
+}
+.services li{
+  list-style: none;
+  padding: 20px;
+  border: #b74022 solid 6px;
+  margin-bottom: 5px;
+  background: #ffffff;
 }
 footer{
   padding: 20px;
